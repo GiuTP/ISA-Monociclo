@@ -302,6 +302,8 @@ O código-fonte deste projeto está distribuído sob a licença **MIT**. Consult
 
 GiuTP — [github.com/GiuTP](https://github.com/GiuTP)
 
+E-mail — giulianotpt@gmail.com
+
 Link do projeto: [https://github.com/GiuTP/ISA-Monociclo](https://github.com/GiuTP/ISA-Monociclo)
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
