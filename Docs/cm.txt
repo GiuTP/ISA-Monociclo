@@ -1,0 +1,44 @@
+; Testado e funcionando
+0: 057002 
+1: 0a8002
+2: 009870
+3: 00a871
+4: 01b073
+5: 02c084
+6: 00d875
+7: 00e876
+8: 00f877
+9: 009078
+; Testado e funcionando
+10: 009879
+11: 00a789
+; Testado e funcionando
+12: 02087a
+13: 01b002
+14: 02077a
+15: 02b002
+; Testado e funcionando
+16: fc6062
+17: 04076c
+18: 00906b
+19: 046062
+; Testado e funcionado
+20: 041002 ; a0 = 4
+21: 03500d ; jal para fib
+22: 001110 ; a0 += a0
+22: 00000f ; fim
+; começo de fib
+23: 007002 ; r1 = 0
+24: 018002 ; r2 = 1
+25: 029002 ; r3 = 2
+26: 0a010a ; beq (Se a0 = 0 => fim)
+27: 00a199 ; slt (ao < i)
+28: 070a0a ; beq (loop)
+29: 00b780 ; r5 = r1 + r2
+30: 007800 ; r1 = r2
+31: 008b00 ; r2 = r5
+32: 019092 ; i++
+33: 00a199 ; slt (a0 < i)
+34: fa000d ; jal para comeco do loop
+35: 001b00 ; a0 = r5
+36: 00005e ; jalr
